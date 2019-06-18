@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Florence;
+    src: url(../Fonts/SFFlorencesansSCOutline.TTF);
+}
+
+body {
+    font-family: Florence;
+    background: white;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidenav {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding: 2%;
+}
+
+.sidenav img {
+    width: 100%;
+}
+
+.sidenav a {
+    font-size: 50px;
+    color: blue;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: lighter;
+    color: blue;
+    display: block;
+    line-height: 2em;
+}
+
+.menu a:hover {
+    color: fuchsia;
+}
+
+.menu {
+    padding-top: 130%;
+}
+
+.main {
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-image: url(Images/Background.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-x: hidden;
+    margin-left: 20%;
+    padding: 2%;
+}
+
+.portfolio {
+    text-align: right;
+}
+
+.portfolio a {
+    font-size: 60px;
+    line-height: 1.8em;
+}
+
+.portfolio a:hover {
+    text-shadow: 5px 5px 0px fuchsia;
+}
+
+.mainmenus {
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: white;
+    overflow-x: hidden;
+    margin-left: 20%;
+    padding: 2%;
+}
+
+#burger-bar {
+    width: 5%;
+    height: 8%;
+    padding: 1%;
+    float: left;
+    position: fixed;
+}
+
+#burger {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.bar {
+    height: 25%;
+    width: 100%;
+    background-color: blue;
+    display: block;
+}
+
+#bar1 {
+    transform: translateY(-50%);
+}
+
+#bar3 {
+    transform: translateY(50%);
+}
+
+.change #bar1 {
+    transform: translateY(75%) rotateZ(-45deg);
+}
+
+.change #bar3 {
+    transform: translateY(-105%) rotate(45deg);
+}
+
+.change #bar2 {
+    opacity: 0;
+}
+
+.navigation li a:hover {
+    color: fuchsia;
+    font-size: 21px;
+}
+
+.navigation li a {
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navigation li {
+    list-style: none;
+    padding: 50%;
+}
+
+.navigation {
+    padding: 0;
+    margin-right: 5%;
+    margin-left: 5%;
+    transition: 0.5s ease;
+    background-color: white;
+    display: none;
+}
+
+.change {
+    display: block;
+}
+
+.doodletop {
+    width: 40%;
+    height: 50%;
+    padding: 1%;
+    float: right;
+}
+
+.doodletopleft {
+    height: 100%;
+    width: 60%;
+    float: left;
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    background: linear-gradient(white 0%, white 27%, blue 20%, blue 100%);
+}
+
+.doodletopleft:hover {
+    transform: rotateY(180deg);
+}
+
+.doodletopleft h1 {
+    padding-left: 5%;
+    color: blue;
+    font-weight: lighter;
+}
+
+.doodletopleft span {
+    color: white;
+}
+
+.doodletopleft h1,
+.doodletopleft p {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.doodletopleft p {
+    padding-left: 5%;
+    line-height: 2em;
+    transform: rotateY(180deg);
+}
+
+.doodletopleft a {
+    color: blue;
+}
+
+
+.doodletopright {
+    height: 100%;
+    width: 40%;
+    float: right;
+}
+
+.doodletopright p {
+    font-size: 24px;
+    text-align: right;
+    padding-bottom: 5%;
+    color: blue;
+}
+
+.doodletopright p:hover {
+    text-shadow: 5px 5px 0px fuchsia;
+}
