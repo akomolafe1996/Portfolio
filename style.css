@@ -9,6 +9,16 @@
     src: url(../Fonts/SFFlorencesansSCOutline.TTF);
 }
 
+@font-face {
+    font-family: Aller;
+    src: url(../Fonts/Aller_Lt.ttf);
+}
+
+@font-face {
+    font-family: Leixo;
+    src: url(../Fonts/LEIXO-DEMO.ttf);
+}
+
 body {
     font-family: Florence;
     background: white;
@@ -85,11 +95,27 @@ a {
     text-shadow: 5px 5px 0px fuchsia;
 }
 
+.portfolio p {
+    font-size: 60px;
+    line-height: 1.8em;
+}
+
+.portfolio p:hover {
+    text-shadow: 5px 5px 0px fuchsia;
+}
+
+.portfolio img {
+    width: 30%;
+    padding: 5%;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 .mainmenus {
     width: 80%;
     height: 100%;
     position: fixed;
-    z-index: 1;
     top: 0;
     background-color: white;
     overflow-x: hidden;
@@ -165,6 +191,7 @@ a {
 
 .change {
     display: block;
+    z-index: 2;
 }
 
 .doodletop {
@@ -232,4 +259,397 @@ a {
 
 .doodletopright p:hover {
     text-shadow: 5px 5px 0px fuchsia;
+}
+
+.TLCover {
+    width: 60%;
+    height: 100%;
+    padding: 5%;
+    z-index: -1;
+}
+
+.TLCover p {
+    color: blue;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.TLTitle {
+    width: 100%;
+    height: 90%;
+    background-image: url(Images/TechLounge.JPG);
+    background-size: contain;
+    opacity: 0.7;
+}
+
+.DTitle {
+    width: 100%;
+    height: 90%;
+    background-image: url(Images/Doodles.JPG);
+    background-size: contain;
+    opacity: 0.7;
+}
+
+.FATitle {
+    width: 100%;
+    height: 90%;
+    background-image: url(Images/KeaFronter.JPG);
+    background-size: contain;
+    opacity: 0.7;
+}
+
+.CICTitle {
+    width: 100%;
+    height: 90%;
+    background-image: url(Images/CIC.JPG);
+    background-image: url(Images/CIC.JPG);
+    background-size: contain;
+    opacity: 0.7;
+}
+
+.ATitle {
+    width: 100%;
+    height: 90%;
+    background-image: url(Images/Space.JPG);
+    background-size: contain;
+    opacity: 0.7;
+}
+
+.Goal {
+    margin-top: 5%;
+    width: 80%;
+    padding: 5%;
+    background: blue;
+}
+
+.Goal p {
+    font-weight: lighter;
+    color: white;
+    font-size: 30px;
+}
+
+.StyleMood{
+    width: 100%;
+    padding: 5%;
+}
+
+.StyleMood p {
+    font-weight: lighter;
+    color: blue;
+    font-size: 30px;
+}
+
+.StyleMood h1 {
+    font-family: Leixo;
+    font-weight: lighter;
+    color: blue;
+    font-size: 30px;
+}
+
+.StyleMood h2 {
+    font-family: Courier;
+    font-weight: lighter;
+    color: blue;
+    font-size: 30px;
+}
+
+.StyleMood span {
+    font-family: Arial;
+    font-weight: lighter;
+    color: blue;
+    font-size: 30px;
+}
+
+.allcolours {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+
+.allcolours p {
+    font-size: 15px;
+}
+
+.colour1 {
+    margin: 1%;
+    padding: 5%;
+    width: 5%;
+    height: 5%;
+    background-color: #126290;
+    border-radius: 50px;
+}
+
+.colour2 {
+    margin: 1%;
+    padding: 5%;
+    width: 5%;
+    height: 5%;
+    background-color: #059884;
+    border-radius: 50px;
+}
+
+.colour3 {
+    margin: 1%;
+    padding: 5%;
+    width: 5%;
+    height: 5%;
+    background-color: #664b80;
+    border-radius: 50px;
+}
+
+.colour4 {
+    margin: 1%;
+    padding: 5%;
+    width: 5%;
+    height: 5%;
+    background-color: #b94e9d;
+    border-radius: 50px;
+}
+
+.colour5 {
+    margin: 1%;
+    padding: 5%;
+    width: 5%;
+    height: 5%;
+    background-color: #30465d;
+    border-radius: 50px;
+}
+
+.colour6 {
+    margin: 1%;
+    padding: 5%;
+    width: 5%;
+    height: 5%;
+    background-color: #58CBE8;
+    border-radius: 50px;
+}
+
+.colour7 {
+    margin: 1%;
+    padding: 5%;
+    width: 5%;
+    height: 5%;
+    background-color: #0762E8;
+    border-radius: 50px;
+}
+
+.colour8 {
+    margin: 1%;
+    padding: 5%;
+    width: 5%;
+    height: 5%;
+    background-color: #4C374B;
+    border-radius: 50px;
+}
+
+.colour9 {
+    margin: 1%;
+    padding: 5%;
+    width: 5%;
+    height: 5%;
+    background-color: #FFB4AA;
+    border-radius: 50px;
+}
+
+.colour10 {
+    margin: 1%;
+    padding: 5%;
+    width: 5%;
+    height: 5%;
+    background-color: #B1E5FF;
+    border-radius: 50px;
+}
+
+.colour11 {
+    margin: 1%;
+    padding: 5%;
+    width: 5%;
+    height: 5%;
+    background-color: #ff562e;
+    border-radius: 50px;
+}
+
+.colour12 {
+    margin: 1%;
+    padding: 5%;
+    width: 5%;
+    height: 5%;
+    background-color: #000c2e;
+    border-radius: 50px;
+}
+
+.colour13 {
+    margin: 1%;
+    padding: 5%;
+    width: 5%;
+    height: 5%;
+    background-color: #020202;
+    border-radius: 50px;
+}
+
+.colour14 {
+    margin: 1%;
+    padding: 5%;
+    width: 5%;
+    height: 5%;
+    background-color: #fcfdff;
+    border-radius: 50px;
+    border-color: black;
+    border: 0.5px solid;
+}
+
+.colour15 {
+    margin: 1%;
+    padding: 5%;
+    width: 5%;
+    height: 5%;
+    background-color: #363636;
+    border-radius: 50px;
+}
+
+.colour16 {
+    margin: 1%;
+    padding: 5%;
+    width: 5%;
+    height: 5%;
+    background-color: #000091;
+    border-radius: 50px;
+}
+
+.colour17 {
+    margin: 1%;
+    padding: 5%;
+    width: 5%;
+    height: 5%;
+    background-color: #61361f;
+    border-radius: 50px;
+}
+
+
+.process{
+    width: 100%;
+    padding: 5%;
+}
+
+.process p {
+    font-weight: lighter;
+    color: blue;
+    font-size: 30px;
+}
+
+.interviews {
+    width: 100%;
+    display: grid;
+    grid-template-columns: (1fr 1fr);
+}
+
+.questions {
+    width: 50%;
+}
+
+.questions p {
+    font-size: 17px;
+    color: black;
+    padding-bottom: 10%;
+}
+
+.process span {
+    padding-top: 5%;
+    font-size: 40px;
+}
+
+.process span:hover {
+    color: red;
+}
+
+.secondpart p {
+    padding-top: 5%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.secondpart span {
+    color: fuchsia;
+    font-size: 18px;
+}
+
+.interviews img{
+    width: 30%;
+    height: 40%;
+    margin: 5%;
+}
+
+
+.keyinsights{
+    width: 100%;
+    padding: 5%;
+    background: blue;
+}
+
+.MBandST{
+    width: 100%;
+    padding: 5%;
+}
+
+.MBandST img {
+    width: 100%;
+}
+
+.keyinsights p {
+    font-weight: lighter;
+    color: white;
+    font-size: 30px;
+}
+
+.keyinsights span:hover {
+    background: white;
+    color: blue;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.projectimages {
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+}
+
+.projectimages img {
+    width: 100%;
+}
+
+.projectimages1 {
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+}
+
+.projectimages1 img {
+    width: 100%;
+    height: 97%;
+}
+
+.personalobservations {
+    width: 100%;
+    padding: 5%;
+}
+
+.personalobservations p {
+    text-align: center;
+    font-weight: lighter;
+    color: blue;
+    font-size: 30px;
+}
+
+.aboutme {
+    width: 100%;
+}
+
+.aboutme p {
+    text-align: right;
+    font-weight: lighter;
+    color: blue;
+    font-size: 30px;
 }
