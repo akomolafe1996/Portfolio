@@ -4,10 +4,7 @@
     padding: 0;
 }
 
-@font-face {
-    font-family: Florence;
-    src: url(../Fonts/SFFlorencesansSCOutline.TTF);
-}
+@font-face {font-family:"SF Florencesans SC Outline";src:url("SFFlorencesansSCOutline.eot?") format("eot"),url("SFFlorencesansSCOutline.woff") format("woff"),url("SFFlorencesansSCOutline.ttf") format("truetype"),url("SFFlorencesansSCOutline.svg#SFFlorencesansSCOutline") format("svg");font-weight:normal;font-style:normal;}
 
 @font-face {
     font-family: Aller;
@@ -15,12 +12,12 @@
 }
 
 @font-face {
-    font-family: Leixo;
-    src: url(../Fonts/LEIXO-DEMO.ttf);
+    font-family: "Leixo";
+    src: url("LEIXO-DEMO.ttf");
 }
 
 body {
-    font-family: Florence;
+    font-family: "SF Florencesans SC Outline";
     background: white;
     color: black;
 }
@@ -340,7 +337,7 @@ a {
 }
 
 .StyleMood h1 {
-    font-family: Leixo;
+    font-family: "Leixo";
     font-weight: lighter;
     color: blue;
     font-size: 30px;
@@ -652,4 +649,23 @@ a {
     font-weight: lighter;
     color: blue;
     font-size: 30px;
+}
+
+@media(max-width: 960px) {
+    .menu a {
+    font-size: 13px;
+}
+.sidenav a {
+    font-size: 18px;
+}
+    .menu {
+        padding-top: 650%;
+    }
+    .portfolio a {
+    font-size: 30px;
+}
+
+    .doodletopright p {
+    font-size: 10px;
+
 }
